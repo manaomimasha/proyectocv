@@ -1,0 +1,135 @@
+/**      { padding:0; margin: 0;  }*/
+
+p {
+  margin: 1px;
+  padding: 1px;
+  width: 300px;
+}
+
+body {
+  background-color: whitesmoke;
+  margin: 1px;
+}
+
+/* p { padding:1px; margin: 1px;  letter-spacing: 3px;}
+ h1 { padding: 10px; } 
+ 
+ grid-area: right;
+ 
+ section2 div {
+  display: flex;
+  justify-content: space-between;
+  
+    section2 div {   display: flex; flex-direction: column; justify-content: right;
+     }
+*/
+
+
+* box-sizing {
+  border-box;
+}
+
+
+section {}
+
+
+section1 {
+  font-family: 'Sofia Sans', sans-serif;
+  background-color: black;
+  width: 400px;
+  padding: 70px 15px 131px 50px;
+  color: whitesmoke;
+  width: 30%;
+  float: left;
+}
+
+
+.section2 {
+  font-family: 'Sofia Sans', sans-serif;
+  background-color: grey;
+  padding: 10px 439px 10px 10px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.section2 p, i,a {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+section3 {
+  width: 60%;
+  float: left;
+  font-family: 'Sofia Sans', sans-serif;
+  background-color: lightgray;
+  color: black;
+}
+
+section4 {
+  width: 25%;
+  float: left;
+  font-family: 'Sofia Sans', sans-serif;
+  background-color: antiquewhite;
+  width: 420px;
+  padding: 70px 15px 10px 10px;
+  margin: 0px;
+  color: black;
+  border-style: ridge;
+}
+
+img {
+  float: right;
+}
+
+/*h1 style = text-align: left
+    /*  display: inline-block;
+        font-size: 15px;     
+        h1 style = text-align: left 
+        width: 420px;
+        display: inline-block;*/
+
+button {
+
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+section ul.menu {
+  font-family: 'Sofia Sans', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  color: white
+}
+
+section ul.menu li {
+ padding: 10px;
+  float: left;
+}
+
+section ul.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+section ul.menu li a:hover {
+  background-color: #111111;
+}
